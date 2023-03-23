@@ -4,11 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22aa36a7-7f99-461f-af93-da2a10e67009" name="Changes" comment="" />
+    <list default="true" id="22aa36a7-7f99-461f-af93-da2a10e67009" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/zadania/FabrykaMebli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zadania/KlientStoliki.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zadania/KlientSzafki.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zadania/meble/Meble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zadania/meble/Stoliki.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zadania/meble/Szafki.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/meble/MebleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FabrykaMebli.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KlientStoliki.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KlientSzafki.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/meble/Meble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/meble/Stoliki.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/meble/Szafki.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -18,7 +49,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2NPKWCyBDcM5TN13V0mVgtcK3Ma" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,9 +59,88 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MebleTest.testSzafkiF">
+    <configuration name="MebleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wzorce_projektowe_asz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="meble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="meble" />
+      <option name="MAIN_CLASS_NAME" value="meble.MebleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MebleTest.testStolikow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wzorce_projektowe_asz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="meble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="meble" />
+      <option name="MAIN_CLASS_NAME" value="meble.MebleTest" />
+      <option name="METHOD_NAME" value="testStolikow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MebleTest.testSzafki" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wzorce_projektowe_asz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="meble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="meble" />
+      <option name="MAIN_CLASS_NAME" value="meble.MebleTest" />
+      <option name="METHOD_NAME" value="testSzafki" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MebleTest.testSzafkiF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wzorce_projektowe_asz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="meble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="meble" />
+      <option name="MAIN_CLASS_NAME" value="meble.MebleTest" />
+      <option name="METHOD_NAME" value="testSzafkiF" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MebleTest.testSzafkiF" />
+        <item itemvalue="JUnit.MebleTest.testSzafki" />
+        <item itemvalue="JUnit.MebleTest" />
+        <item itemvalue="JUnit.MebleTest.testStolikow" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
